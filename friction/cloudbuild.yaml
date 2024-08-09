@@ -11,3 +11,5 @@ steps:
   args: ['run', 'deploy', 'holamundo', '--image', 'gcr.io/fleet-tenancy/holaimg', '--region', 'us-west1']
 images:
 - gcr.io/fleet-tenancy/holaimg
+options:
+  logging: CLOUD_LOGGING_ONLY
